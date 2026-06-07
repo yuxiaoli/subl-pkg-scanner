@@ -1,0 +1,1 @@
+curl -L https://packagecontrol.io/channel_v3.json -o data/channel_v3.json

@@ -1,5 +1,5 @@
 [project]
-name = "package-scanner"
+name = "subl-pkg-scanner"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-package-scanner = "package_scanner.cli:app"
+subl-pkg-scanner = "subl_pkg_scanner.cli:app"
 
 [tool.uv]
 package = true

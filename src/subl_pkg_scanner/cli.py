@@ -11,7 +11,7 @@ from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TimeRe
 import httpx
 from dotenv import load_dotenv
 
-app = typer.Typer(help="CLI app to process package-scanner data")
+app = typer.Typer(help="CLI app to process subl-pkg-scanner data")
 console = Console()
 
 DATA_FILE = Path("data/channel_v3.json")
